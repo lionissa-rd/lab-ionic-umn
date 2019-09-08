@@ -1,0 +1,31 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>offers</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-chip color="primary" mode="ios" outline="true">
+      <ion-avatar slot = "start">
+        <img [src]="image" />
+      </ion-avatar>
+      <ion-label>Default</ion-label>
+    </ion-chip>
+  </ion-list>
+
+</ion-content>
+
+
+<ion-tabs>
+    <ion-tab-bar>
+      <ion-tab-button tab="discover">
+        <ion-label>Discover</ion-label>
+        <ion-icon name="search"></ion-icon>
+      </ion-tab-button>
+      <ion-tab-button tab="offers">
+        <ion-label>Offers</ion-label>
+        <ion-icon name="card"></ion-icon>
+      </ion-tab-button>
+    </ion-tab-bar>
+</ion-tabs>
